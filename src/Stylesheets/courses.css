@@ -1,0 +1,21 @@
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover{
+   color: rgb(21, 210, 21);;
+}
+
+.nav-link.active {
+ color: rgb(21, 210, 21);
+ border-bottom: 4px solid rgb(21, 210, 21);
+}
