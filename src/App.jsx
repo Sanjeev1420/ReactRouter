@@ -13,7 +13,7 @@ function App() {
     <Router>
     <Courses />
     <Routes>
-      <Route index path='/all' element={<Allcourses data={allCourses()}/>} />
+      <Route path='/all' element={<Allcourses data={allCourses()}/>} />
       <Route path='/fsdevelopment' element={<Fsdelopment data={fsCourses()}/>} />
       <Route path='/dscience' element={<DataScience data={dsCourses()}/>} />
       <Route path='/cybersec' element={<CyberSecurity data={cybersecCourses()}/>} />
